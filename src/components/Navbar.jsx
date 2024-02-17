@@ -44,7 +44,7 @@ const Navbar = () => {
             <Link to="/Library">Library</Link>
           </li>
           <li>
-            <Link to="/Courses">Courses</Link>
+            <Link to="/Events">Events</Link>
           </li>
           <li>
             <select name="more1" id="more1">

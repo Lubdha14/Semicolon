@@ -6,7 +6,7 @@ import Home from "./components/Home";
 // import Contact from "./components/Contact";
 // import Cources from "./components/Cources";
  import Library from "./components/Library";
-// import Events from "./components/Events";
+import Events from "./components/Events";
 // import Education from "./components/Education";
 // import Curricular from "./components/Curricular";
 function App() {
@@ -18,7 +18,7 @@ function App() {
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route path="/Cources" element={<Cources />} />  */}
           <Route path="/Library" element={<Library />} />
-          {/* <Route path="/" element={<Events />} /> */}
+          <Route path="/Events" element={<Events />} />
           {/* <Route path="/Education" element={<Education />} />
           <Route path="/Curricular" element={<Curricular />} /> */}
       </Routes>
