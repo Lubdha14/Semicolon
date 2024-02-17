@@ -1,12 +1,25 @@
 
-import React from 'react'
+// Import necessary dependencies
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
-function About() {
+// Define the Home component
+function Home() {
   return (
     <div>
-      about
+      <Navbar/>
+      
+
+      {/* Content of the Home component */}
+      <div>
+        {/* Add content specific to the Home component */}
+        <h1>Welcome to our website!</h1>
+        <p>This is the home page content.</p>
+      </div>
     </div>
   );
 }
 
-export default About
+// Export the Home component
+export default Home;
